@@ -22,14 +22,13 @@
   "name": "onlinecomerce",
   "version": "1.0.0",
   "description": "tienda online con react",
-  "homepage": "https://github.com/deivysjf/ReactComerce.git",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages-d dist"
   },
   "keywords": [
     "react",
@@ -40,5 +39,6 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "sass-loader": "^13.0.2"
-  }
+  },
+  "homepage": "https://github.com/deivysjf/ReactComerce.git"
 }
