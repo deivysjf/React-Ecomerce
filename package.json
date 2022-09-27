@@ -22,7 +22,7 @@
   "name": "onlinecomerce",
   "version": "1.0.0",
   "description": "tienda online con react",
-  "homepage": "https://deivysjf.github.io/ReactComerce",
+  "homepage": "https://github.com/deivysjf/ReactComerce.git",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
