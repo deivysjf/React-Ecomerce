@@ -26,9 +26,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "webpack --mode production"
   },
   "keywords": [
     "react",
@@ -39,6 +37,5 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "sass-loader": "^13.0.2"
-  },
-  "homepage": "https://github.com/deivysjf/ReactComerce.git"
+  }
 }
