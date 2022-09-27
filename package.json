@@ -22,14 +22,14 @@
   "name": "onlinecomerce",
   "version": "1.0.0",
   "description": "tienda online con react",
-  "homepage": "https://deivysjf.github.io/ReactComerce-",
+  "homepage": "https://deivysjf.github.io/ReactComerce",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d dist",
     "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d dist"
   },
   "keywords": [
     "react",
