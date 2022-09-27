@@ -22,6 +22,7 @@
   "name": "onlinecomerce",
   "version": "1.0.0",
   "description": "tienda online con react",
+  "homepage": "https://deivysjf.github.io/ReactComerce-",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -39,6 +40,5 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "sass-loader": "^13.0.2"
-  },
-  "homepage": "https://deivysjf.github.io/ReactComerce-"
+  }
 }
