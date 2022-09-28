@@ -19,10 +19,10 @@ const App = () => {
     const initialState = useInitialState();
     return (
         <AppContext.Provider value={initialState}>
-            <BrowserRouter basename="/React-Ecomerce">
+            <BrowserRouter basename="/react-ecomerce">
                 <Layout>
                     <Routes>
-                        <Route path="/React-Ecomerce/" element={<Home />} />
+                        <Route path="/react-ecomerce/" element={<Home />} />
                         <Route path="login" element={<Login />} />
                         <Route path="account" element={<MyAccount />} />
                         <Route path="Checkout" element={<Checkout />} />

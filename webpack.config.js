@@ -6,8 +6,8 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'React-Ecomerce/bundle.js',
-        publicPath: '/React-Ecomerce/',
+        filename: 'react-ecomerce/bundle.js',
+        publicPath: '/react-comerce/',
     },
     mode: 'development',
     resolve: {
